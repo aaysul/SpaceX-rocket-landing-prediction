@@ -21,4 +21,4 @@ This repository holds the notebooks that were completed during the Capstone Proj
 
  * **Using Web Scraping** \
 This is the second lab for the data collection process. It involves data collection through web scraping. The notebook for this lab is [spacex-data-collection-webscraping.ipynb](https://github.com/aaysul/applied-data-science-capstone/blob/main/spacex-data-collection-webscraping.ipynb).The data is available as follows, 
-    - SpaceX Falcon9 and Falcon Heavy Launches https://en.wikipedia.org/wiki/List_of_Falcon_9_and_Falcon_Heavy_launches
+    - SpaceX Falcon9 and Falcon Heavy Launches data available at https://en.wikipedia.org/wiki/List_of_Falcon_9_and_Falcon_Heavy_launches
