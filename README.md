@@ -81,10 +81,10 @@ The landing outcomes were converted to landing class.
      The notebook can be viewed [here](https://github.com/aaysul/applied-data-science-capstone/blob/main/spacex_dash_app.ipynb). 
 
 ## 6. Predictive Analysis (Classification)
-   Finally we use various classifiers to predict if the landing will be successful. The notebook can be viewed [here](https://github.com/aaysul/applied-data-science-capstone/blob/main/SpaceX_Machine%20Learning%20Prediction.ipynb). Four different classifiers are used. These are,
-   * Logistic Regression Classifier
-   * Support Vector Machine Classifier
-   * Decision Tree Classifier
+   Finally we use various classifiers to predict if the landing will be successful. The notebook can be viewed [here](https://github.com/aaysul/applied-data-science-capstone/blob/main/SpaceX_Machine%20Learning%20Prediction.ipynb). Following classification techniques have been used,
+   * Logistic Regression
+   * Support Vector Machine
+   * Decision Tree
    * K Nearest Neighbours
    
    Each of the classifier score is obtained. Confusion matrix is plotted to identify false outcomes. Decision Tree Classifier found to work best.
