@@ -87,6 +87,6 @@ The landing outcomes were converted to landing class.
    * Decision Tree
    * K Nearest Neighbours
    
-   Each of the classifier score is obtained. Confusion matrix is plotted to identify false outcomes. Decision Tree Classifier found to work best.
+   Each of the classifier score is obtained. Confusion matrix is plotted to identify false outcomes. Decision Tree Classifier was found to work best.
    
    
