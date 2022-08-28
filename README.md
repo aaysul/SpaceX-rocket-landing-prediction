@@ -6,7 +6,7 @@ This repository holds the notebooks that were completed during the Capstone Proj
   2. Data Wrangling 
   3. Exploratory Data Analysis (EDA) with SQL
   4. Exploratory Data Analysis (EDA) with Visualization
-  5. Interactive Visual Analytics using Dashboards
+  5. Interactive Visual Analytics and Dashboards
   6. Predictive Analysis (Classification)
   7. Final Presentation
   
@@ -54,13 +54,39 @@ The landing outcomes were converted to landing class.
    * Success class, Flight No. and Orbit type
    * Payload and Orbit type
    * Yearly trend for Launch Success
-   * Feature Engineering (One-hot-encoding) for categorical variables
-      - Orbit
-      - Launch Site
-      - Landing Pad
-      - Serial
-
-
+   * Feature Engineering (one-hot-encoding) for categorical variables
+   
+     - Orbit
+     - Launch Site
+     - Landing Pad
+     - Serial
  
+## 5. Interactive Visual Analytics and Dashboards
+   Visualizing site locations and building dashboards is the next step. This  phase included following tasks,
+   * Plot markers on map using Folium
+     - Mark all site locations on the map
+     - Mark successful / failed launches for each site on the map
+     - Calculate the distances from launch sites to its proximities
+      
+     The associated notebook is [here](https://github.com/aaysul/applied-data-science-capstone/blob/main/spacex_launch_site_location.ipynb).
+      
+   * Build an interactive dashboard with Plotly Dash.
+   
+     It involves creating a dash application consisting of the following dashboard elements,
+     - A drop-down menu to select all launch sites or a specific one
+     - A pie chart to show success count for all sites or the success rate for a specific site as selected from the drop-down
+     - A slider control to select payload mass range
+     - A scatter chart updated as a result of user selection from drop-down or the payload mass slider
+     
+     The notebook can be viewed [here](https://github.com/aaysul/applied-data-science-capstone/blob/main/spacex_dash_app.ipynb). 
+
+## 6. Predictive Analysis (Classification)
+   Finally we use various classifiers to predict if the landing will be successful. The notebook can be viewed [here](https://github.com/aaysul/applied-data-science-capstone/blob/main/SpaceX_Machine%20Learning%20Prediction.ipynb). Four different classifiers are used. These are,
+   * Logistic Regression Classifier
+   * Support Vector Machine Classifier
+   * Decision Tree Classifier
+   * K Nearest Neighbours
+   
+   Each of the classifier score is obtained. Confusion matrix is plotted to identify false outcomes. Decision Tree Classifier found to work best.
    
    
