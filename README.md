@@ -4,8 +4,8 @@ This repository holds the notebooks that were completed during the Capstone Proj
 
   1. Data Collection
   2. Data Wrangling 
-  3. Exploratory Data Analysis (EDA) using SQL
-  4. Exploratory Data Analysis (EDA) using Pandas and Matplotlib
+  3. Exploratory Data Analysis (EDA) with SQL
+  4. Exploratory Data Analysis (EDA) with Visualization
   5. Interactive Visual Analytics using Dashboards
   6. Predictive Analysis (Classification)
   7. Final Presentation
@@ -34,19 +34,33 @@ The landing outcomes were converted to landing class.
 | Successful        | 1           |
 | Failure           | 0           |
         
-## 3. Exploratory Data Analysis (EDA) using SQL
+## 3. Exploratory Data Analysis (EDA) with SQL
    This lab involves using SQL within the python environment as the primary language for manipulation. The lab notebook is [here](https://github.com/aaysul/applied-data-science-capstone/blob/main/spacex-eda-sql-coursera_sqllite.ipynb). The following launch information is explored,
    * Landing Outcomes by Launch Sites
    * Landing Outcomes by Landing Platforms
    * Landing Outcomes by Dates
    * Payload Mass by Booster Versions
    * Ranking of Landing Outcomes within given period
-   
-   
-   
-   
-   
-   
-   
+
+## 4. Exploratory Data Analysis (EDA) with Visualization
+   The jupyter notebook for the lab is [here](https://github.com/aaysul/applied-data-science-capstone/blob/main/spacex-eda-dataviz.ipynb). In this lab two of the popular libraries in python were used,
+   * Pandas
+   * Matplotlib
+
+   Following relationships were explored using visualization,
+   * Flight No. and Launch Site
+   * Payload and Launch Site
+   * Success rate and Orbit type
+   * Success class, Flight No. and Orbit type
+   * Payload and Orbit type
+   * Yearly trend for Launch Success
+   * Feature Engineering (One-hot-encoding) for categorical variables
+      - Orbit
+      - Launch Site
+      - Landing Pad
+      - Serial
+
+
+ 
    
    
