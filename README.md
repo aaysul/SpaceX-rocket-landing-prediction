@@ -90,4 +90,4 @@ The landing outcomes were converted to landing class.
    Each of the classifier score is obtained. Confusion matrix is plotted to identify false outcomes. Decision Tree Classifier is found to work best.
    
 ## 7. Final Presentation
-   In the end the entire working is shared in the form a presentation that explain the data acquisition, organizing, cleaning and processing tasks. The methodology is explained and the insights into the data are shared with visualizations. The conclusion details the findings of the study. Follow the link to view the presentation.
+   In the end the entire working is shared in the form a presentation that explain the data acquisition, organizing, cleaning and processing tasks. The methodology is explained and the insights into the data are shared with visualizations. The conclusion details the findings of the study. [Click](https://github.com/aaysul/applied-data-science-capstone/blob/main/DS-Capstone_Final%20Presentation.pdf) to view the presentation.
