@@ -1,4 +1,4 @@
-# [SpaceX Rocket Landing Prediction](https://github.com/aaysul/applied-data-science-capstone)
+# [SpaceX Rocket Landing Prediction](https://github.com/aaysul/SpaceX-rocket-landing-prediction)
 
 This repository holds the notebooks that were completed during the Capstone Project for the **IBM Data Science Professional Certificate** on Coursera. The aim is to predict whether the SpaceX Falcon 9 first stage will land based on the data from previous launches. The data supporting the prediction is gathered using various sources. The project involves various steps to gather, clean and analyze data and then use it to predict the outcome of a first stage booster landing. The project also requires a presentation in order to share the findings. Following is the step by step breakdown of the project.
 
@@ -13,16 +13,16 @@ This repository holds the notebooks that were completed during the Capstone Proj
 ## 1. Data Collection  
    The data collection process involves using different methods to acquire data. These include using API or web scraping.
    * **Using SpaceX API** \
-  This is the first lab for the data collection process. It involves data collection on SpaceX launches using the API. The notebook for the lab is available [here](https://github.com/aaysul/applied-data-science-capstone/blob/main/spacex-data-collection-api.ipynb). The data through API is available as follows,
+  This is the first lab for the data collection process. It involves data collection on SpaceX launches using the API. The notebook for the lab is available [here](https://github.com/aaysul/SpaceX-rocket-landing-prediction/blob/main/spacex-data-collection-api.ipynb). The data through API is available as follows,
       - Booster version details are available at https://api.spacexdata.com/v4/rockets/
       - Launch Site details are at https://api.spacexdata.com/v4/launchpads/
       - Payload data is available at https://api.spacexdata.com/v4/payloads/
       - Cores data is at https://api.spacexdata.com/v4/cores/
    * **Using Web Scraping** \
-   This is the second lab for the data collection process. It involves data collection through web scraping. The notebook for this lab is available [here](https://github.com/aaysul/applied-data-science-capstone/blob/main/spacex-data-collection-webscraping.ipynb). The data is available as follows,
+   This is the second lab for the data collection process. It involves data collection through web scraping. The notebook for this lab is available [here](https://github.com/aaysul/SpaceX-rocket-landing-prediction/blob/main/spacex-data-collection-webscraping.ipynb). The data is available as follows,
       - SpaceX Falcon9 and Falcon Heavy launch data available at https://en.wikipedia.org/wiki/List_of_Falcon_9_and_Falcon_Heavy_launches
 ## 2. Data Wrangling
-   The purpose of this lab is to perform exploratory data analysis (EDA) to find patterns in data and determining the training labels for supervised learning model. The notebook for this lab is [here](https://github.com/aaysul/applied-data-science-capstone/blob/main/spacex-data-wrangling.ipynb). Following tasks are performed,
+   The purpose of this lab is to perform exploratory data analysis (EDA) to find patterns in data and determining the training labels for supervised learning model. The notebook for this lab is [here](https://github.com/aaysul/SpaceX-rocket-landing-prediction/blob/main/spacex-data-wrangling.ipynb). Following tasks are performed,
    * Explore number of Launches per Launch Site
    * Explore number of Launches per Orbit
    * Create landing outcome Labels for Training
@@ -35,7 +35,7 @@ The landing outcomes were converted to landing class.
 | Failure           | 0           |
         
 ## 3. Exploratory Data Analysis (EDA) with SQL
-   This lab involves using SQL within the python environment as the primary language for manipulation. The lab notebook is [here](https://github.com/aaysul/applied-data-science-capstone/blob/main/spacex-eda-sql-coursera_sqllite.ipynb). Following launch information is explored,
+   This lab involves using SQL within the python environment as the primary language for manipulation. The lab notebook is [here](https://github.com/aaysul/SpaceX-rocket-landing-prediction/blob/main/spacex-eda-sql-coursera-sqllite.ipynb). Following launch information is explored,
    * Landing Outcomes by Launch Sites
    * Landing Outcomes by Landing Platforms
    * Landing Outcomes by Dates
@@ -43,7 +43,7 @@ The landing outcomes were converted to landing class.
    * Ranking of Landing Outcomes within given period
 
 ## 4. Exploratory Data Analysis (EDA) with Visualization
-   The jupyter notebook for the lab is [here](https://github.com/aaysul/applied-data-science-capstone/blob/main/spacex-eda-dataviz.ipynb). In this lab two of the popular python libraries are used,
+   The jupyter notebook for the lab is [here](https://github.com/aaysul/SpaceX-rocket-landing-prediction/blob/main/spacex-eda-dataviz.ipynb). In this lab two of the popular python libraries are used,
    * Pandas
    * Matplotlib
 
@@ -68,7 +68,7 @@ The landing outcomes were converted to landing class.
      - Mark successful / failed launches for each site on the map
      - Calculate the distances from launch sites to its proximities
       
-     The associated notebook is [here](https://github.com/aaysul/applied-data-science-capstone/blob/main/spacex_launch_site_location.ipynb).
+     The associated notebook is [here](https://github.com/aaysul/SpaceX-rocket-landing-prediction/blob/main/spacex-launch-site-location.ipynb).
       
    * Build an interactive dashboard with Plotly Dash.
    
@@ -78,10 +78,10 @@ The landing outcomes were converted to landing class.
      - A slider control to select payload mass range
      - A scatter chart updated as a result of user selection from drop-down or the payload mass slider
      
-     The notebook can be viewed [here](https://github.com/aaysul/applied-data-science-capstone/blob/main/spacex_dash_app.ipynb). 
+     The notebook can be viewed [here](https://github.com/aaysul/SpaceX-rocket-landing-prediction/blob/main/spacex_dash_app.ipynb). 
 
 ## 6. Predictive Analysis (Classification)
-   Finally we use various classifiers to predict if the landing will be successful. The notebook can be viewed [here](https://github.com/aaysul/applied-data-science-capstone/blob/main/SpaceX_Machine%20Learning%20Prediction.ipynb). Following classification techniques have been used,
+   Finally we use various classifiers to predict if the landing will be successful. The notebook can be viewed [here](https://github.com/aaysul/SpaceX-rocket-landing-prediction/blob/main/spacex-machine-learning-prediction.ipynb). Following classification techniques have been used,
    * Logistic Regression
    * Support Vector Machine
    * Decision Tree
@@ -90,4 +90,4 @@ The landing outcomes were converted to landing class.
    Each of the classifier score is obtained. Confusion matrix is plotted to identify false outcomes. Decision Tree Classifier is found to work best.
    
 ## 7. Final Presentation
-   In the end the entire working is shared in the form a presentation that explain the data acquisition, organizing, cleaning and processing tasks. The methodology is explained and the insights into the data are shared with visualizations. The conclusion details the findings of the study. [Click](https://github.com/aaysul/applied-data-science-capstone/blob/main/DS-Capstone_Final%20Presentation.pdf) to view the presentation.
+   In the end the entire working is shared in the form a presentation that explain the data acquisition, organizing, cleaning and processing tasks. The methodology is explained and the insights into the data are shared with visualizations. The conclusion details the findings of the study. [Click](https://github.com/aaysul/SpaceX-rocket-landing-prediction/blob/main/DS-Capstone_Final%20Presentation.pdf) to view the presentation.
