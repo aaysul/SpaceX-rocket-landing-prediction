@@ -1,4 +1,4 @@
-# [Applied Data Science Capstone](https://github.com/aaysul/applied-data-science-capstone)
+# [SpaceX Rocket Landing Prediction](https://github.com/aaysul/applied-data-science-capstone)
 
 This repository holds the notebooks that were completed during the Capstone Project for the **IBM Data Science Professional Certificate** on Coursera. The aim is to predict whether the SpaceX Falcon 9 first stage will land based on the data from previous launches. The data supporting the prediction is gathered using various sources. The project involves various steps to gather, clean and analyze data and then use it to predict the outcome of a first stage booster landing. The project also requires a presentation in order to share the findings. Following is the step by step breakdown of the project.
 
